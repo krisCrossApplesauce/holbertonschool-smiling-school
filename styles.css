@@ -4,6 +4,7 @@
 	--accent-color: #C271FF;
 	--light-color: #FFFFFF;
 	--dark-color: #071629;
+	--less-dark-color: rgba(7, 22, 41, 0.50);
 }
 
 html { scroll-behavior: smooth; }
@@ -27,6 +28,7 @@ section {
 
 /*  colors  */
 .text-primary { color: var(--accent-color) !important; }
+.text-secondary { color: var(--less-dark-color) !important; }
 .text-light { color: var(--light-color) !important; }
 .text-dark { color: var(--dark-color) !important; }
 .bg-primary { background-color: var(--accent-color) !important; }
@@ -54,16 +56,28 @@ section {
 13rem
 */
 
+.card { width: 255px; }
+
 /*  END OF BOOTSTRAP CLASSES  */
 
 
 /*  FAKE BOOTSTRAP  */
 .txt-xl { font-size: 7.5rem; }
 .txt-md { font-size: 2rem; }
+.txt-smd { font-size: 0.9rem; }
 .txt-sm { font-size: 0.75rem; }
 .max-w-300 { max-width: 300px; }
 
 .w-150 { width: 150px; }
+.h-15px { height: 15px; }
+.wh-30px {
+	width: 30px;
+	height: 30px;
+}
+.wh-160px {
+	width: 160px;
+	height: 160px;
+}
 /*  END OF FAKE BOOTSTRAP  */
 
 
@@ -84,6 +98,10 @@ section {
 	align-items: center;
 }
 
+.menu-nav:hover {
+	color: var(--accent-color) !important;
+	text-decoration: none;
+}
 
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
