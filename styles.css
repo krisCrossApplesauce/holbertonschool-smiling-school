@@ -6,9 +6,7 @@
 	--dark-color: #071629;
 }
 
-html {
-	scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
 	font-family: sans-serif;
@@ -18,14 +16,16 @@ body {
 }
 
 section {
-	width: 75%;
-	margin: auto auto;
+/*	width: 75%;
+	margin: auto auto; */
 	padding: 5rem 0;
 }
 /*  END OF BASIC STUFF  */
 
 
 /*  BOOTSTRAP CLASSES  */
+
+/*  colors  */
 .text-primary { color: var(--accent-color) !important; }
 .text-light { color: var(--light-color) !important; }
 .text-dark { color: var(--dark-color) !important; }
@@ -38,6 +38,22 @@ section {
 	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.50);
 	border: none;
 }
+
+/*  spacing  
+0
+0.6rem
+0.75rem
+1rem
+2rem
+2.5rem
+3rem
+5rem
+6rem
+7rem
+10rem
+13rem
+*/
+
 /*  END OF BOOTSTRAP CLASSES  */
 
 
@@ -56,4 +72,22 @@ section {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+
+
+.header {
+	padding: 2rem 0 0;
+	margin: auto auto 13rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 576px) {
 }
