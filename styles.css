@@ -16,11 +16,7 @@ body {
 	line-height: 1.75;
 }
 
-section {
-/*	width: 75%;
-	margin: auto auto; */
-	padding: 5rem 0;
-}
+section { padding: 5rem 0; }
 /*  END OF BASIC STUFF  */
 
 
@@ -63,6 +59,7 @@ section {
 
 /*  FAKE BOOTSTRAP  */
 .txt-xl { font-size: 7.5rem; }
+.txt-lg { font-size: 3.75rem; }
 .txt-md { font-size: 2rem; }
 .txt-smd { font-size: 0.9rem; }
 .txt-sm { font-size: 0.75rem; }
@@ -82,13 +79,18 @@ section {
 
 
 .background_image {
-	background-image: url(images/background.png);
+	background-image: url(images/homepage_background.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-
+.background_image_pricing {
+	background-image: url(images/pricing_background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
 
 .header {
 	padding: 2rem 0 0;
