@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Smile School - Courses</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body style="font-family: Source Sans Pro;">
+		<main>
+			<div class="background_image_courses">
+<!--  HEADER START  -->
+				<header class="mx-5 px-5 pt-3">
+					<div class="row d-flex justify-content-between align-items-center">
+						<div class="">
+							<a href="homepage.html"><img src="images/SmileSchool_logo.png"></a>
+						</div>
+						<div class="row justify-content-between txt-sm font-weight-bold">
+							<a class="col-sm text-light menu-nav" href="homepage.html">COURSES</a>
+							<a class="col-sm text-light menu-nav" href="pricing.html">PRICING</a>
+							<a class="col-sm text-light menu-nav" href="#">LOGIN</a>
+						</div>
+					</div>
+				</header>
+<!--  HEADER END  -->
+
+<!--  SECTION 1 START  -->
+				<section class="d-none d-sm-block max-w-500 m-auto text-light text-center">
+					<q class="txt-md mt-5" style="font-family: Coiny;">Don't cry because it's over.
+						<span class="text-primary">Smile</span> because it happened.</q>
+				</section>
+<!--  SECTION 1 END  -->
+			</div>
+
+<!--  SECTION 2 START  -->
+			<section class="bg-primary text-light text-left py-4">
+				<form class="row max-w-1110 mx-auto px-5">
+					<div class="form-group col-sm">
+						<label class="txt-sm font-weight-bold" for="searchbar">KEYWORDS</label>
+						<input class="form-control rounded-top border-bottom bg-opacity-25 text-light" type="search" id="searchbar" placeholder="Search by keywords">
+					</div>
+					<div class="form-group col-sm">
+						<label class="txt-sm font-weight-bold" for="difficulty">TOPIC</label>
+						<select class="custom-select rounded-top border-bottom bg-opacity-25 text-light" id="difficulty" name="difficulty">
+							<option class="text-dark option" value="Novice">Novice</option>
+							<option class="text-dark option" value="Intermediate">Intermediate</option>
+							<option class="text-dark option" value="Expert">Expert</option>
+						</select>
+					</div>
+					<div class="form-group col-sm">
+						<label class="txt-sm font-weight-bold" for="sorting">SORT BY</label>
+						<select class="custom-select rounded-top border-bottom bg-opacity-25 text-light" id="sorting" name="sorting">
+							<option class="text-dark option" value="Most Popular">Most Popular</option>
+							<option class="text-dark option" value="Most Recent">Most Recent</option>
+							<option class="text-dark option" value="Most Viewed">Most Viewed</option>
+						</select>
+					</div>
+				</form>
+			</section>
+<!--  SECTION 2 END  -->
+
+<!--  SECTION 3 START  -->
+			<section class="text-dark bg-light">
+				<p class="text-left font-weight-light text-secondary mb-5 pl-6">12 videos</p>
+				<div class="container-fluid mx-auto px-5 d-flex flex-wrap justify-content-center">
+
+					<div class="card text-left w-255 p-0 m-3">
+						<div class="">
+							<img class="card-img-top" src="images/diagonal_smile.png">
+							<img class="card-img-overlay mx-auto mt-4" src="images/play_button.png">
+						</div>
+						<div class="card-body">
+							<p class="card-title font-weight-bold mb-0">Diagonal Smile</p>
+							<p class="card-text text-secondary">Lorem ipsum dolor sit annet, consect adpiscing elit, sed do eiusmod.</p>
+							<div class="">
+								<div class="d-flex mb-3">
+									<img class="wh-30px mr-3" src="images/phil_smile.png">
+									<div class="text-primary font-weight-bold txt-smd">Phillip Massey</div>
+								</div>
+								<div class="d-flex h-15px justify-content-between align-items-center">
+									<img class="" src="images/four_of_five_stars.png">
+									<div class="text-primary font-weight-bold txt-smd">8 min</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card text-left w-255 p-0 m-3">
+						<div class="">
+							<img class="card-img-top" src="images/sad_smile.png">
+							<img class="card-img-overlay mx-auto mt-4" src="images/play_button.png">
+						</div>
+						<div class="card-body">
+							<p class="card-title font-weight-bold mb-0">Sad Smile</p>
+							<p class="card-text text-secondary">Lorem ipsum dolor sit annet, consect adpiscing elit, sed do eiusmod.</p>
+							<div class="">
+								<div class="d-flex mb-3">
+									<img class="wh-30px mr-3" src="images/phil_smile.png">
+									<div class="text-primary font-weight-bold txt-smd">Phillip Massey</div>
+								</div>
+								<div class="d-flex h-15px justify-content-between align-items-center">
+									<img class="" src="images/four_of_five_stars.png">
+									<div class="text-primary font-weight-bold txt-smd">8 min</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card text-left w-255 p-0 m-3">
+						<div class="">
+							<img class="card-img-top" src="images/natural_smile.png">
+							<img class="card-img-overlay mx-auto mt-4" src="images/play_button.png">
+						</div>
+						<div class="card-body">
+							<p class="card-title font-weight-bold mb-0">Natural Smile</p>
+							<p class="card-text text-secondary">Lorem ipsum dolor sit annet, consect adpiscing elit, sed do eiusmod.</p>
+							<div class="">
+								<div class="d-flex mb-3">
+									<img class="wh-30px mr-3" src="images/phil_smile.png">
+									<div class="text-primary font-weight-bold txt-smd">Phillip Massey</div>
+								</div>
+								<div class="d-flex h-15px justify-content-between align-items-center">
+									<img class="" src="images/four_of_five_stars.png">
+									<div class="text-primary font-weight-bold txt-smd">8 min</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card text-left w-255 p-0 m-3">
+						<div class="">
+							<img class="card-img-top" src="images/happy_smile.png">
+							<img class="card-img-overlay mx-auto mt-4" src="images/play_button.png">
+						</div>
+						<div class="card-body">
+							<p class="card-title font-weight-bold mb-0">Happy Smile</p>
+							<p class="card-text text-secondary">Lorem ipsum dolor sit annet, consect adpiscing elit, sed do eiusmod.</p>
+							<div class="">
+								<div class="d-flex mb-3">
+									<img class="wh-30px mr-3" src="images/phil_smile.png">
+									<div class="text-primary font-weight-bold txt-smd">Phillip Massey</div>
+								</div>
+								<div class="d-flex h-15px justify-content-between align-items-center">
+									<img class="" src="images/four_of_five_stars.png">
+									<div class="text-primary font-weight-bold txt-smd">8 min</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card text-left w-255 p-0 m-3">
+						<div class="">
+							<img class="card-img-top" src="images/diagonal_smile.png">
+							<img class="card-img-overlay mx-auto mt-4" src="images/play_button.png">
+						</div>
+						<div class="card-body">
+							<p class="card-title font-weight-bold mb-0">Diagonal Smile</p>
+							<p class="card-text text-secondary">Lorem ipsum dolor sit annet, consect adpiscing elit, sed do eiusmod.</p>
+							<div class="">
+								<div class="d-flex mb-3">
+									<img class="wh-30px mr-3" src="images/phil_smile.png">
+									<div class="text-primary font-weight-bold txt-smd">Phillip Massey</div>
+								</div>
+								<div class="d-flex h-15px justify-content-between align-items-center">
+									<img class="" src="images/four_of_five_stars.png">
+									<div class="text-primary font-weight-bold txt-smd">8 min</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card text-left w-255 p-0 m-3">
+						<div class="">
+							<img class="card-img-top" src="images/sad_smile.png">
+							<img class="card-img-overlay mx-auto mt-4" src="images/play_button.png">
+						</div>
+						<div class="card-body">
+							<p class="card-title font-weight-bold mb-0">Sad Smile</p>
+							<p class="card-text text-secondary">Lorem ipsum dolor sit annet, consect adpiscing elit, sed do eiusmod.</p>
+							<div class="">
+								<div class="d-flex mb-3">
+									<img class="wh-30px mr-3" src="images/phil_smile.png">
+									<div class="text-primary font-weight-bold txt-smd">Phillip Massey</div>
+								</div>
+								<div class="d-flex h-15px justify-content-between align-items-center">
+									<img class="" src="images/four_of_five_stars.png">
+									<div class="text-primary font-weight-bold txt-smd">8 min</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card text-left w-255 p-0 m-3">
+						<div class="">
+							<img class="card-img-top" src="images/natural_smile.png">
+							<img class="card-img-overlay mx-auto mt-4" src="images/play_button.png">
+						</div>
+						<div class="card-body">
+							<p class="card-title font-weight-bold mb-0">Natural Smile</p>
+							<p class="card-text text-secondary">Lorem ipsum dolor sit annet, consect adpiscing elit, sed do eiusmod.</p>
+							<div class="">
+								<div class="d-flex mb-3">
+									<img class="wh-30px mr-3" src="images/phil_smile.png">
+									<div class="text-primary font-weight-bold txt-smd">Phillip Massey</div>
+								</div>
+								<div class="d-flex h-15px justify-content-between align-items-center">
+									<img class="" src="images/four_of_five_stars.png">
+									<div class="text-primary font-weight-bold txt-smd">8 min</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card text-left w-255 p-0 m-3">
+						<div class="">
+							<img class="card-img-top" src="images/happy_smile.png">
+							<img class="card-img-overlay mx-auto mt-4" src="images/play_button.png">
+						</div>
+						<div class="card-body">
+							<p class="card-title font-weight-bold mb-0">Happy Smile</p>
+							<p class="card-text text-secondary">Lorem ipsum dolor sit annet, consect adpiscing elit, sed do eiusmod.</p>
+							<div class="">
+								<div class="d-flex mb-3">
+									<img class="wh-30px mr-3" src="images/phil_smile.png">
+									<div class="text-primary font-weight-bold txt-smd">Phillip Massey</div>
+								</div>
+								<div class="d-flex h-15px justify-content-between align-items-center">
+									<img class="" src="images/four_of_five_stars.png">
+									<div class="text-primary font-weight-bold txt-smd">8 min</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card text-left w-255 p-0 m-3">
+						<div class="">
+							<img class="card-img-top" src="images/diagonal_smile.png">
+							<img class="card-img-overlay mx-auto mt-4" src="images/play_button.png">
+						</div>
+						<div class="card-body">
+							<p class="card-title font-weight-bold mb-0">Diagonal Smile</p>
+							<p class="card-text text-secondary">Lorem ipsum dolor sit annet, consect adpiscing elit, sed do eiusmod.</p>
+							<div class="">
+								<div class="d-flex mb-3">
+									<img class="wh-30px mr-3" src="images/phil_smile.png">
+									<div class="text-primary font-weight-bold txt-smd">Phillip Massey</div>
+								</div>
+								<div class="d-flex h-15px justify-content-between align-items-center">
+									<img class="" src="images/four_of_five_stars.png">
+									<div class="text-primary font-weight-bold txt-smd">8 min</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card text-left w-255 p-0 m-3">
+						<div class="">
+							<img class="card-img-top" src="images/sad_smile.png">
+							<img class="card-img-overlay mx-auto mt-4" src="images/play_button.png">
+						</div>
+						<div class="card-body">
+							<p class="card-title font-weight-bold mb-0">Sad Smile</p>
+							<p class="card-text text-secondary">Lorem ipsum dolor sit annet, consect adpiscing elit, sed do eiusmod.</p>
+							<div class="">
+								<div class="d-flex mb-3">
+									<img class="wh-30px mr-3" src="images/phil_smile.png">
+									<div class="text-primary font-weight-bold txt-smd">Phillip Massey</div>
+								</div>
+								<div class="d-flex h-15px justify-content-between align-items-center">
+									<img class="" src="images/four_of_five_stars.png">
+									<div class="text-primary font-weight-bold txt-smd">8 min</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card text-left w-255 p-0 m-3">
+						<div class="">
+							<img class="card-img-top" src="images/natural_smile.png">
+							<img class="card-img-overlay mx-auto mt-4" src="images/play_button.png">
+						</div>
+						<div class="card-body">
+							<p class="card-title font-weight-bold mb-0">Natural Smile</p>
+							<p class="card-text text-secondary">Lorem ipsum dolor sit annet, consect adpiscing elit, sed do eiusmod.</p>
+							<div class="">
+								<div class="d-flex mb-3">
+									<img class="wh-30px mr-3" src="images/phil_smile.png">
+									<div class="text-primary font-weight-bold txt-smd">Phillip Massey</div>
+								</div>
+								<div class="d-flex h-15px justify-content-between align-items-center">
+									<img class="" src="images/four_of_five_stars.png">
+									<div class="text-primary font-weight-bold txt-smd">8 min</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card text-left w-255 p-0 m-3">
+						<div class="">
+							<img class="card-img-top" src="images/happy_smile.png">
+							<img class="card-img-overlay mx-auto mt-4" src="images/play_button.png">
+						</div>
+						<div class="card-body">
+							<p class="card-title font-weight-bold mb-0">Happy Smile</p>
+							<p class="card-text text-secondary">Lorem ipsum dolor sit annet, consect adpiscing elit, sed do eiusmod.</p>
+							<div class="">
+								<div class="d-flex mb-3">
+									<img class="wh-30px mr-3" src="images/phil_smile.png">
+									<div class="text-primary font-weight-bold txt-smd">Phillip Massey</div>
+								</div>
+								<div class="d-flex h-15px justify-content-between align-items-center">
+									<img class="" src="images/four_of_five_stars.png">
+									<div class="text-primary font-weight-bold txt-smd">8 min</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+<!--  SECTION 3 END  -->
+		</main>
+
+<!--  FOOTER START  -->
+		<footer class="bg-dark text-light pt-5 pb-4">
+			<div class="d-flex justify-content-between w-75 mx-auto my-5">
+				<img src="images/SmileSchool_logo.png">
+				<a href="#"><img src="images/social_icons.png"></a>
+			</div>
+			<p class="txt-sm pt-4 opacity-50">©smileschool 2020</p>
+		</footer>
+<!--  FOOTER END  -->
+	</body>
+</html>
