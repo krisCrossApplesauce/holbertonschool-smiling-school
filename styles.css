@@ -49,6 +49,17 @@ section { padding: 5rem 0; }
 
 .card { width: 255px; }
 
+.rounded-top {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.border-bottom {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid var(--light-color) !important;
+}
 /*  END OF BOOTSTRAP CLASSES  */
 
 
@@ -61,6 +72,7 @@ section { padding: 5rem 0; }
 .txt-sm { font-size: 0.75rem; }
 
 .max-w-300 { max-width: 300px; }
+.max-w-500 { max-width: 500px; }
 .max-w-1110 { max-width: 1110px; }
 
 .w-150 { width: 150px; }
@@ -75,6 +87,7 @@ section { padding: 5rem 0; }
 }
 
 .opacity-50 { opacity: 0.5; }
+.bg-opacity-25 { background-color: rgba(255, 255, 255, 0.25); }
 /*  END OF FAKE BOOTSTRAP  */
 
 
@@ -92,6 +105,13 @@ section { padding: 5rem 0; }
 	background-size: cover;
 }
 
+.background_image_courses {
+	background-image: url(images/courses_background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
 .header {
 	padding: 2rem 0 0;
 	margin: auto auto 13rem;
@@ -100,9 +120,8 @@ section { padding: 5rem 0; }
 	align-items: center;
 }
 
-.menu-nav:hover {
+.menu-nav:hover, option:hover {
 	color: var(--accent-color) !important;
-	text-decoration: none;
 }
 
 
