@@ -127,10 +127,3 @@ section { padding: 5rem 0; }
 .menu-nav:hover, option:hover {
 	color: var(--accent-color) !important;
 }
-
-
-@media only screen and (min-width: 576px) and (max-width: 768px) {
-}
-
-@media only screen and (max-width: 576px) {
-}
